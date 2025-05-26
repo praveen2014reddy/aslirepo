@@ -63,8 +63,8 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '')
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Bot Database')
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'BotDatabase')
 
 # ============================
 # Movie Notification & Update Settings
